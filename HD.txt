@@ -1,0 +1,17 @@
+download ứng dụng
+cài thư viện càn thiết trong file package.json
+
+
+database
+
+CREATE TABLE LoaiHang
+(
+LoaiHangID CHAR(10) PRIMARY KEY, 
+TenLH VARCHAR(60) UNIQUE
+);
+alter USER 'root'@'localhost' IDENTIFIED BY 'pkh7822';
+
+SELECT * FROM LoaiHangINSERT;
+INSERT INTO `test`.`loaihang` (`LoaiHangID`, `TenLH`) VALUES ('aaaa', 'thành');
+
+Lưu ý: chỉ là DEMO
